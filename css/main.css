@@ -6,7 +6,7 @@ html {
 }
 body {
   /* Margin bottom by footer height */
-  margin-bottom: 50px;
+  margin-bottom: 52px;
   background-color: #2D3238;
   color: #ADADAD;
 }
@@ -19,7 +19,7 @@ body {
   border-color: #e7e7e7;
   border-radius: 4px;
   /* Set the fixed height of the footer here */
-  height: 50px;
+  height: 52px;
   left: 0;
   right: 0;
   margin-left: auto;
