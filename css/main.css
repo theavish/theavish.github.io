@@ -30,3 +30,9 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
+h1, h2 {
+   font-family: 'PT Sans', sans-serif;
+}
+h3, p {
+   font-family: 'PT Serif', serif;
+}
