@@ -36,3 +36,6 @@ h1, h2 {
 h3, p {
    font-family: 'PT Serif', serif;
 }
+li a:hover {
+   color: #333;
+}
