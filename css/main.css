@@ -1,1 +1,35 @@
+html {
+  position: relative;
+  min-height: 100%;
+  color: #ADADAD;
 
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 50px;
+  background-color: #2D3238;
+  color: #ADADAD;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  max-width: 800px;
+  margin-bottom: 0px;
+  background-color: #f8f8f8;
+  border-color: #e7e7e7;
+  border-radius: 4px;
+  /* Set the fixed height of the footer here */
+  height: 50px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 1200px) {
+    .container-fluid, .container, .navbar{
+        max-width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

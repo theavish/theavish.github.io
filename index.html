@@ -1,33 +1,80 @@
 <!DOCTYPE html>
 <html>
 <head>
+   <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
    <link rel="stylesheet" href="css/main.css">
-   <link rel="icon" type="image/png" href="/img/as-icon.png">
-   <meta charset="utf-8">
+   <link rel="icon" type="image/png" href="img/as-icon.png">
    <title>Avi Samloff</title>
 </head>
 <body>
+
+   <!-- Start NavBar -->
+   <nav class="navbar navbar-default">
+      <div class="container-fluid">
+         <!-- Brand and toggle get grouped for better mobile display -->
+         <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+               <span class="sr-only">Toggle navigation</span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="http://AviSamloff.com"><strong>AS</strong></a>
+         </div>
+
+         <!-- Collect the nav links, forms, and other content for toggling -->
+         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+               <li class="active"><a href="#">Home<span class="sr-only">(current)</span></a></li>
+               <li><a href="http://theavish.wordpress.com/">Blog</a></li>
+               <li><a href="mailto:avi.samloff@gmail.com">Email Me</a></li>
+               <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Social Media<span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                     <li><a href="http://github.com/theavish">GitHub</a></li>
+                     <li><a href="http://facebook.com/avisamloff">Facebook</a></li>
+                     <li><a href="http://twitter.com/theavish">Twitter</a></li>
+                     <li><a href="callto:avi.samloff">Skype</a></li>
+                     <li><a href="https://www.linkedin.com/in/avisamloff">LinkedIn</a></li>
+                  </ul>
+               </li>
+            </ul>
+         </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+   </nav>
+   <!-- End NavBar -->
+
    <!-- Start Content -->
    <div class="container">
-      <pre>
-         var str = "Hello, World."
-
-         console.log(str);<script>console.log("Hello, World.");</script>
-      </pre>
       <h1>Avi Samloff</h1>
       <h3>Yeah I realize my page is ugly and dumb, but I'm working on it, okay? For now, just check out my <a href="http://theavish.wordpress.com/">blog</a>. Please?</h3>
+
+
    </div>
    <!-- End Content -->
 
    <!-- Start Footer -->
-   <div class="footer">
-      <a href="https://www.paypal.me/AviSamloff">Buy me a beer?</a>
-   </div>
+   <footer class="footer navbar">
+      <div class="container">
+         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+               <li><a class="text-muted" href="http://paypal.me/AviSamloff">Buy Me A Beer!</a></li>
+               <!-- <li><a href="#">Link</a></li> -->
+               <li></li>
+            </ul>
+         </div>
+      </div>
+   </footer>
+
    <!-- End Footer -->
 
-   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-   <script src="/js/main.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+   <script src="js/main.js"></script>
+
 </body>
 </html>
