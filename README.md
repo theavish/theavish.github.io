@@ -1,2 +1,2 @@
 # theavish.github.io
-More from me coming soon.
+Check me out at [AviSamloff.com](http://AviSamloff.com)
