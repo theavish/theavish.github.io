@@ -8,8 +8,8 @@ title_description: "Ramblings of Life, Love, Code, and Magic: The Gathering."
 title_image: "http://www.gravatar.com/avatar/00000000000000000000000000000000?s=500&d=mm"
 # google_analytics: "UA-20365477-4"
 # disqus_account: cartenoire
-github_repository: https://github.com/theavish
-addthis_id: ra-513c6fa83da6ec67
+github_repository: https://github.com/theavish/theavish.github.io
+# addthis_id: ra-513c6fa83da6ec67
 post_limit: 5
 
 # Social usernames/URLs
@@ -22,7 +22,7 @@ stackoverflow_link: http://stackoverflow.com/users/5314403/avi-samloff
 
 # Footer
 footer_left: "<small><a href=\"https://github.com/jacobtomlinson/carte-noire\">Carte Noire</a> theme by Jacob Tomlinson</small>"
-footer_right: ""
+footer_right: "<small><a href=\"mailto:avi.samloff@gmail.com\">Email me</a></small>"
 
 # Build settings
 markdown: redcarpet
