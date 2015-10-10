@@ -1,10 +1,10 @@
 # Site settings
 title: "Avi Samloff"
 email: avi.samloff@gmail.com
-description: "A dark blog theme for Jekyll."
+description: "Ramblings of Life, Love, Code, and Magic: The Gathering."
 baseurl: ""
 url: "http://AviSamloff.com"
-title_description: "A dark blog theme for Jekyll focusing on a clear reading experience. Large text and a narrow body makes carte noire a gorgeous read. With excellent code snippet support and integrated tools such as AddThis and Disqus giving your Jekyll blog all the functionality your users expect."
+title_description: "Ramblings of Life, Love, Code, and Magic: The Gathering."
 title_image: "http://www.gravatar.com/avatar/00000000000000000000000000000000?s=500&d=mm"
 # google_analytics: "UA-20365477-4"
 # disqus_account: cartenoire
@@ -21,8 +21,8 @@ linkedin_link: https://www.linkedin.com/in/avisamloff
 stackoverflow_link: http://stackoverflow.com/users/5314403/avi-samloff
 
 # Footer
-footer_left: "Made with <i class=\"fa fa-heart\"></i> by <a href=\"https://twitter.com/_JacobTomlinson\">Jacob Tomlinson</a>"
-footer_right: "&lt;/&gt; on <a href=\"https://github.com/jacobtomlinson/carte-noire\">Github</a> &nbsp;<i class=\"fa fa-github-alt\"></i>"
+footer_left: "<small><a href=\"https://github.com/jacobtomlinson/carte-noire\">Carte Noire</a> theme by Jacob Tomlinson</small>"
+footer_right: ""
 
 # Build settings
 markdown: redcarpet
