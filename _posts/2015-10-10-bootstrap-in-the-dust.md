@@ -8,7 +8,7 @@ categories: blog
 ---
 
 ***Week One Day Six***
-<img src="{{site.url}}/images/hash-tables-lecture.jpg" height="550px" class="rotate90">
+<img src="{{site.url}}/images/hash-tables-lecture.jpg" height="550px" style="margin:-100px auto" class="rotate90">
 
 Today we had a lecture about [hash tables][1] from our awesome fellow, Joe. I got to nerd out hard. Data structures are really interesting for me, because I love learning about how the programs and functions are working behind the scenes. Hash tables are especially cool because of the hash function involved. It takes an input, and gives an output which becomes the index. Every time you run the same value through the hash function, it *should* return the same result. But it's not random! It runs bit conversions so that it can assign a value to that specific combination of characters. Amazing.
 
