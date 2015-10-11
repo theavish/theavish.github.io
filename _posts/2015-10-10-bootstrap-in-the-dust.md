@@ -3,7 +3,7 @@ layout:     post
 title:      wordpress is in the dust
 date:       2015-10-10 13:57:18
 author:     Avi Samloff
-summary:    Hello, World.
+summary:    Today we had a lecture about hash tables from our awesome fellow, Joe.
 categories: blog
 ---
 
