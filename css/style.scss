@@ -18,6 +18,7 @@
 /* Colours */
 $twitter:        #3CA2A2;
 $facebook:       #3CA2A2;
+$email:          #3CA2A2;
 $linkedin:       #3CA2A2;
 $google-plus:    #3CA2A2;
 $github:         #3CA2A2;
@@ -193,8 +194,12 @@ ul {
 	}
 
 	.fa-facebook:hover {
-		color: $facebook
+		color: $facebook;
 	}
+
+   .fa-envelope-o:hover {
+      color: $email;
+   }
 
 	.fa-linkedin:hover {
 		color: $linkedin;
