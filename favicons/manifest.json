@@ -1,5 +1,5 @@
 {
-	"name": "My app",
+	"name": "Avi Samloff",
 	"icons": [
 		{
 			"src": "\/favicons\/android-chrome-36x36.png",
@@ -37,5 +37,7 @@
 			"type": "image\/png",
 			"density": "4.0"
 		}
-	]
+	],
+	"start_url": "http:\/\/AviSamloff.com",
+	"display": "standalone"
 }
