@@ -5,7 +5,7 @@ description: "Ramblings of Life, Love, Code, and Magic: The Gathering."
 baseurl: ""
 url: "http://AviSamloff.com"
 title_description: "Ramblings of Life, Love, Code, and Magic: The Gathering."
-title_image: "http://www.gravatar.com/avatar/00000000000000000000000000000000?s=500&d=mm"
+title_image: "images/avi.jpg"
 # google_analytics: "UA-20365477-4"
 # disqus_account: cartenoire
 github_repository: https://github.com/theavish/theavish.github.io
