@@ -3,7 +3,7 @@ layout:     post
 title:      the sun peeks through the blinds
 date:       2015-10-05 8:11:20
 author:     Avi Samloff
-summary:    Hello, World.
+summary:    Day one of MakerSquare 26 starts today.
 categories: blog
 ---
 
