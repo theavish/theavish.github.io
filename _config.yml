@@ -6,7 +6,7 @@ baseurl: ""
 url: "http://AviSamloff.com"
 title_description: "Ramblings of Life, Love, Code, and Magic: The Gathering."
 title_image: "images/avi.jpg"
-# google_analytics: "UA-20365477-4"
+google_analytics: "UA-69143803-1"
 # disqus_account: cartenoire
 github_repository: https://github.com/theavish/theavish.github.io
 # addthis_id: ra-513c6fa83da6ec67
@@ -30,3 +30,14 @@ redcarpet:
   extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript"]
 permalink: pretty
 exclude: [vendor]
+
+#comments
+comments :
+  provider : disqus
+  disqus :
+    short_name : avisamloff
+  facebook :
+    appid : 123
+    num_posts: 5
+    width: 580
+    colorscheme: light
