@@ -6,6 +6,7 @@ author:     Avi Samloff
 summary:    Postmortem for our Greenfield Project.
 categories: blog
 ---
+Find the project on [github](http://github.com/kickasskoalas/TasteBuds).
 
 ##Back-End
 ###Matthew Murkidjanian
