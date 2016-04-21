@@ -1,0 +1,80 @@
+/*
+  Black: #0E0B16 = rgb(14,11,22);
+  White: #E7DFDD = rgb(231,223,221);
+*/
+
+img#me {
+  height: 192px;
+  width: 192px;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+div.links {
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.push-down {
+  margin-top: 10%;
+}
+
+span.header {
+  display: block;
+  color: rgb(14,11,22);
+}
+
+span#name {
+  font-size: 4em;
+  font-weight: 700;
+}
+
+span#description {
+  font-size: 2em;
+}
+
+div.container {
+  max-width: 50%;
+  padding-top: 4em;
+  padding-bottom: 4em;
+  border-radius: 6px;
+  background-color: rgba(14,11,22,0.5);
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-image: url('../images/background.png');
+  background-size: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: rgb(231,223,221);
+}
+
+.btn {
+  padding: 14px 24px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+ 
+.btn:focus, .btn:active:focus, .btn.active:focus {
+  outline: 0 none;
+}
+
+.btn-link {
+  background: rgb(14,11,22);
+  color: rgb(231,223,221);
+  border-radius: 6px;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  margin-left: 0.1em;
+  margin-right: 0.1em;
+}
+ 
+.btn-link:hover, .btn-link:focus, .btn-link:active, .btn-link.active, .open > .dropdown-toggle.btn-link {
+  background: rgb(231,223,221);
+  color: rgb(14,11,22);
+  border-color: rgb(14,11,22);
+}
