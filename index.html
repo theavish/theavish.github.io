@@ -1,43 +1,37 @@
-<!DOCTYPE html >
+<!DOCTYPE HTML>
 <html>
-  <head>
-    <title>Avi Samloff - Software Engineer</title>
-    <link rel="stylesheet" href="./lib/bootstrap-3.3.6-dist/css/bootstrap.min.css">
-    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="./assets/css/main.css">
-  </head>
-
-  <body>
-  <center>
-    <div class="container push-down">
-      <img src="./assets/images/me.jpg" id="me" class="center-block img-rounded img-responsive">
-      <span id="name" class="header">Avi Samloff</span>
-      <span id="description" class="header">Full Stack Software Engineer</span>
-      <div class="links text-center">
-        <a href="http://linkedin.com/in/avisamloff">
-          <button type="button" class="btn btn-link" id="linkedin">
-            LinkedIn
-          </button>
-        </a>
-        <a href="http://github.com/theavish">
-          <button type="button" class="btn btn-link" id="github">
-            GitHub
-          </button>
-        </a>
-        <a href="mailto:avi.samloff@gmail.com">
-          <button type="button" class="btn btn-link" id="email">
-            Email
-          </button>
-        </a>
-        <a href="./pages/resume.html">
-          <button type="button" class="btn btn-link" id="resume">
-            R&#233;sum&#233;
-          </button>
-        </a>
-      </div>
-    </div>
-    <script src="./lib/jquery/jquery-2.2.3.min.js"></script>
-    <script src="./lib/bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
-    </center>
-  </body>
+	<head>
+		<title>Avi Samloff</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+	</head>
+	<body class="loading">
+		<div id="wrapper">
+			<div id="bg"></div>
+			<div id="main">
+				<header id="header">
+					<h1>Avi Samloff</h1>
+					<p>Full-Stack Software Engineer</p>
+					<nav>
+						<ul>
+							<li><a href="http://github.com/theavish" class="icon fa-github"><span class="label">Github</span></a></li>
+							<li><a href="http://linkedin.com/in/avisamloff" class="icon fa-linkedin"><span class="label">Linkedin</span></a></li>
+							<li><a href="../assets/AviSamloff_Resume.pdf" class="icon fa-file-text-o"><span class="label">Resume</span></a></li>
+							<li><a href="mailto:avi.samloff@gmail.com" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+						</ul>
+					</nav>
+				</header>
+			</div>
+		</div>
+		<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+		<script>
+			window.onload = function() { document.body.className = ''; }
+			window.ontouchmove = function() { return false; }
+			window.onorientationchange = function() { document.body.scrollTop = 0; }
+		</script>
+	</body>
 </html>
