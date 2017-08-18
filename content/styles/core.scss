@@ -139,6 +139,10 @@ body {
                 margin: 0 auto;
                 position: relative;
                 top: -7px;
+
+                .mobile & {
+                    content: none;
+                }
             }
         }
 
@@ -178,28 +182,16 @@ body {
 
 .icon {
     position: relative;
-
-    &::before {
-        content: '';
-        position: absolute;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        background-size: 60%;
-        background-position: center;
-        background-repeat: no-repeat;
-        @include transition($property: background-image, $function: ease-in-out);
-    }
+    background-size: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
 
     @each $item in $links {
         &-#{$item} {
-            &::before {
-                background-image: url("#{$path-icons}/black/#{$item}.svg");
-                @include transition($property: background-image, $function: ease-in-out);
-            }
+            background-image: url("#{$path-icons}/black/#{$item}.svg");
+            @include transition($property: background-image, $function: ease-in-out);
 
-            &:hover::before {
+            &:hover {
                 background-image: url("#{$path-icons}/blue/#{$item}.svg");
                 @include transition($property: background-image, $function: ease-in-out);
             }
