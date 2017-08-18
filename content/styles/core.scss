@@ -42,6 +42,7 @@ body {
 
 
     &::before {
+        transform: scale(1); //prevent chrome render bug
         content: '';
         pointer-events: none;
         position: absolute;
