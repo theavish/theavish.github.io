@@ -88,8 +88,6 @@ body {
         margin: 0 auto;
         position: relative;
         top: -7px; }
-        .mobile .links-item .label::before {
-          content: none; }
     .links-item:hover {
       box-shadow: inset 0 0 0 2px #019ba3;
       transition-delay: 0ms;
@@ -133,48 +131,64 @@ body {
     transition-duration: 100ms;
     transition-property: background-image;
     transition-timing-function: ease; }
+    .mobile .icon-github {
+      transition: none; }
     .icon-github:hover {
       background-image: url("../../assets/images/icons/blue/github.svg");
       transition-delay: 0ms;
       transition-duration: 100ms;
       transition-property: background-image;
       transition-timing-function: ease; }
+      .mobile .icon-github:hover {
+        transition: none; }
   .icon-linkedin {
     background-image: url("../../assets/images/icons/black/linkedin.svg");
     transition-delay: 0ms;
     transition-duration: 100ms;
     transition-property: background-image;
     transition-timing-function: ease; }
+    .mobile .icon-linkedin {
+      transition: none; }
     .icon-linkedin:hover {
       background-image: url("../../assets/images/icons/blue/linkedin.svg");
       transition-delay: 0ms;
       transition-duration: 100ms;
       transition-property: background-image;
       transition-timing-function: ease; }
+      .mobile .icon-linkedin:hover {
+        transition: none; }
   .icon-resume {
     background-image: url("../../assets/images/icons/black/resume.svg");
     transition-delay: 0ms;
     transition-duration: 100ms;
     transition-property: background-image;
     transition-timing-function: ease; }
+    .mobile .icon-resume {
+      transition: none; }
     .icon-resume:hover {
       background-image: url("../../assets/images/icons/blue/resume.svg");
       transition-delay: 0ms;
       transition-duration: 100ms;
       transition-property: background-image;
       transition-timing-function: ease; }
+      .mobile .icon-resume:hover {
+        transition: none; }
   .icon-email {
     background-image: url("../../assets/images/icons/black/email.svg");
     transition-delay: 0ms;
     transition-duration: 100ms;
     transition-property: background-image;
     transition-timing-function: ease; }
+    .mobile .icon-email {
+      transition: none; }
     .icon-email:hover {
       background-image: url("../../assets/images/icons/blue/email.svg");
       transition-delay: 0ms;
       transition-duration: 100ms;
       transition-property: background-image;
       transition-timing-function: ease; }
+      .mobile .icon-email:hover {
+        transition: none; }
 
 .link {
   font-weight: 600; }
