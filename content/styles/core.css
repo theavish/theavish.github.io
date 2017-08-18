@@ -1,0 +1,192 @@
+@import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,600");
+body {
+  margin: 0;
+  height: 100vh;
+  font-size: 18px;
+  overflow: hidden;
+  position: relative;
+  background-color: #ddd; }
+  body::before {
+    content: '';
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0.1;
+    background-image: url("../../assets/images/background.jpg");
+    background-size: cover; }
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  cursor: default;
+  padding: 10px; }
+
+.site-header,
+.site-main {
+  width: 100%; }
+
+.site-header-text {
+  color: #222;
+  text-align: center;
+  font-family: "Source Sans Pro", Arial, sans-serif;
+  margin: 0; }
+  .site-header-text-primary {
+    font-size: 2.5em; }
+    @media (min-width: 800px) {
+      .site-header-text-primary {
+        font-size: 4em; } }
+  .site-header-text-secondary {
+    font-weight: 300;
+    font-size: 1em;
+    color: #666; }
+    @media (min-width: 800px) {
+      .site-header-text-secondary {
+        font-size: 1.2em; } }
+
+.links {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  flex-wrap: wrap; }
+  @media (min-width: 800px) {
+    .links {
+      margin-top: 40px; } }
+  .links-item {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    border-radius: 16px;
+    text-decoration: none;
+    box-shadow: inset 0 0 0 2px #222;
+    transition-delay: 0ms;
+    transition-duration: 100ms;
+    transition-property: box-shadow;
+    transition-timing-function: ease; }
+    .links-item .label {
+      position: absolute;
+      opacity: 0; }
+      .links-item .label::before {
+        content: '';
+        display: block;
+        width: 0;
+        height: 0;
+        border-left: 5px solid transparent;
+        border-right: 5px solid transparent;
+        border-bottom: 5px solid #222;
+        margin: 0 auto;
+        position: relative;
+        top: -7px; }
+    .links-item:hover {
+      box-shadow: inset 0 0 0 2px #019ba3;
+      transition-delay: 0ms;
+      transition-duration: 100ms;
+      transition-property: box-shadow;
+      transition-timing-function: ease; }
+      .links-item:hover .label {
+        opacity: 1;
+        background: #222;
+        border-radius: 4px;
+        bottom: -42px;
+        text-align: center;
+        padding: 2px 8px;
+        color: #019ba3;
+        font-family: "Source Sans Pro", Arial, sans-serif;
+        font-size: 1em;
+        font-weight: 600;
+        box-shadow: 0 3px 10px 1px rgba(34, 34, 34, 0.75);
+        transition-delay: 150ms;
+        transition-duration: 100ms;
+        transition-property: all;
+        transition-timing-function: ease; }
+    .links-item-wrapper {
+      flex: 0 0 64px;
+      height: 64px;
+      margin: 0 5px; }
+      @media (min-width: 800px) {
+        .links-item-wrapper {
+          flex-basis: 100px;
+          height: 100px;
+          margin: 0 15px; } }
+
+.icon {
+  position: relative; }
+  .icon::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-size: 60%;
+    background-position: center;
+    background-repeat: no-repeat; }
+  .icon-github::before {
+    background-image: url("../../assets/images/icons/black/github.svg");
+    transition-delay: 0ms;
+    transition-duration: 100ms;
+    transition-property: background-image;
+    transition-timing-function: ease; }
+  .icon-github:hover::before {
+    background-image: url("../../assets/images/icons/blue/github.svg");
+    transition-delay: 0ms;
+    transition-duration: 100ms;
+    transition-property: background-image;
+    transition-timing-function: ease; }
+  .icon-linkedin::before {
+    background-image: url("../../assets/images/icons/black/linkedin.svg");
+    transition-delay: 0ms;
+    transition-duration: 100ms;
+    transition-property: background-image;
+    transition-timing-function: ease; }
+  .icon-linkedin:hover::before {
+    background-image: url("../../assets/images/icons/blue/linkedin.svg");
+    transition-delay: 0ms;
+    transition-duration: 100ms;
+    transition-property: background-image;
+    transition-timing-function: ease; }
+  .icon-resume::before {
+    background-image: url("../../assets/images/icons/black/resume.svg");
+    transition-delay: 0ms;
+    transition-duration: 100ms;
+    transition-property: background-image;
+    transition-timing-function: ease; }
+  .icon-resume:hover::before {
+    background-image: url("../../assets/images/icons/blue/resume.svg");
+    transition-delay: 0ms;
+    transition-duration: 100ms;
+    transition-property: background-image;
+    transition-timing-function: ease; }
+  .icon-email::before {
+    background-image: url("../../assets/images/icons/black/email.svg");
+    transition-delay: 0ms;
+    transition-duration: 100ms;
+    transition-property: background-image;
+    transition-timing-function: ease; }
+  .icon-email:hover::before {
+    background-image: url("../../assets/images/icons/blue/email.svg");
+    transition-delay: 0ms;
+    transition-duration: 100ms;
+    transition-property: background-image;
+    transition-timing-function: ease; }
+
+.link {
+  font-weight: 600; }
+  .link:link {
+    color: #c60c0b;
+    text-decoration: none; }
+  .link:link, .link:visited {
+    text-decoration: none; }
+  .link:hover, .link:active {
+    color: #f32b2a;
+    text-decoration: underline; }
+
+/*# sourceMappingURL=core.css.map */
