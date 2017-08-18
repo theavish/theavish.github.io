@@ -75,6 +75,8 @@ body {
     .links-item .label {
       position: absolute;
       opacity: 0; }
+      .mobile .links-item .label {
+        display: none; }
       .links-item .label::before {
         content: '';
         display: block;
