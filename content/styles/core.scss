@@ -124,6 +124,10 @@ body {
             position: absolute;
             opacity: 0;
 
+            .mobile & {
+                display: none;
+            }
+
             &::before {
                 content: '';
                 display: block;
