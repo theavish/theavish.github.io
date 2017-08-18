@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
     if (mobilecheck()) {
-        document.getElementsByClassName('content').classList.add('mobile')
+        document.getElementsByClassName('content').className += " mobile";
     }
 });
