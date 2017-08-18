@@ -131,7 +131,11 @@ body {
     left: 0;
     background-size: 60%;
     background-position: center;
-    background-repeat: no-repeat; }
+    background-repeat: no-repeat;
+    transition-delay: 0ms;
+    transition-duration: 100ms;
+    transition-property: background-image;
+    transition-timing-function: ease; }
   .icon-github::before {
     background-image: url("../../assets/images/icons/black/github.svg");
     transition-delay: 0ms;
