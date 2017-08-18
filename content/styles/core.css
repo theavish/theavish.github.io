@@ -88,6 +88,8 @@ body {
         margin: 0 auto;
         position: relative;
         top: -7px; }
+        .mobile .links-item .label::before {
+          content: none; }
     .links-item:hover {
       box-shadow: inset 0 0 0 2px #019ba3;
       transition-delay: 0ms;
@@ -121,69 +123,58 @@ body {
           margin: 0 15px; } }
 
 .icon {
-  position: relative; }
-  .icon::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-size: 60%;
-    background-position: center;
-    background-repeat: no-repeat;
-    transition-delay: 0ms;
-    transition-duration: 100ms;
-    transition-property: background-image;
-    transition-timing-function: ease; }
-  .icon-github::before {
+  position: relative;
+  background-size: 60%;
+  background-position: center;
+  background-repeat: no-repeat; }
+  .icon-github {
     background-image: url("../../assets/images/icons/black/github.svg");
     transition-delay: 0ms;
     transition-duration: 100ms;
     transition-property: background-image;
     transition-timing-function: ease; }
-  .icon-github:hover::before {
-    background-image: url("../../assets/images/icons/blue/github.svg");
-    transition-delay: 0ms;
-    transition-duration: 100ms;
-    transition-property: background-image;
-    transition-timing-function: ease; }
-  .icon-linkedin::before {
+    .icon-github:hover {
+      background-image: url("../../assets/images/icons/blue/github.svg");
+      transition-delay: 0ms;
+      transition-duration: 100ms;
+      transition-property: background-image;
+      transition-timing-function: ease; }
+  .icon-linkedin {
     background-image: url("../../assets/images/icons/black/linkedin.svg");
     transition-delay: 0ms;
     transition-duration: 100ms;
     transition-property: background-image;
     transition-timing-function: ease; }
-  .icon-linkedin:hover::before {
-    background-image: url("../../assets/images/icons/blue/linkedin.svg");
-    transition-delay: 0ms;
-    transition-duration: 100ms;
-    transition-property: background-image;
-    transition-timing-function: ease; }
-  .icon-resume::before {
+    .icon-linkedin:hover {
+      background-image: url("../../assets/images/icons/blue/linkedin.svg");
+      transition-delay: 0ms;
+      transition-duration: 100ms;
+      transition-property: background-image;
+      transition-timing-function: ease; }
+  .icon-resume {
     background-image: url("../../assets/images/icons/black/resume.svg");
     transition-delay: 0ms;
     transition-duration: 100ms;
     transition-property: background-image;
     transition-timing-function: ease; }
-  .icon-resume:hover::before {
-    background-image: url("../../assets/images/icons/blue/resume.svg");
-    transition-delay: 0ms;
-    transition-duration: 100ms;
-    transition-property: background-image;
-    transition-timing-function: ease; }
-  .icon-email::before {
+    .icon-resume:hover {
+      background-image: url("../../assets/images/icons/blue/resume.svg");
+      transition-delay: 0ms;
+      transition-duration: 100ms;
+      transition-property: background-image;
+      transition-timing-function: ease; }
+  .icon-email {
     background-image: url("../../assets/images/icons/black/email.svg");
     transition-delay: 0ms;
     transition-duration: 100ms;
     transition-property: background-image;
     transition-timing-function: ease; }
-  .icon-email:hover::before {
-    background-image: url("../../assets/images/icons/blue/email.svg");
-    transition-delay: 0ms;
-    transition-duration: 100ms;
-    transition-property: background-image;
-    transition-timing-function: ease; }
+    .icon-email:hover {
+      background-image: url("../../assets/images/icons/blue/email.svg");
+      transition-delay: 0ms;
+      transition-duration: 100ms;
+      transition-property: background-image;
+      transition-timing-function: ease; }
 
 .link {
   font-weight: 600; }
