@@ -139,10 +139,6 @@ body {
                 margin: 0 auto;
                 position: relative;
                 top: -7px;
-
-                .mobile & {
-                    content: none;
-                }
             }
         }
 
@@ -191,9 +187,17 @@ body {
             background-image: url("#{$path-icons}/black/#{$item}.svg");
             @include transition($property: background-image, $function: ease-in-out);
 
+            .mobile & {
+                transition: none;
+            }
+
             &:hover {
                 background-image: url("#{$path-icons}/blue/#{$item}.svg");
                 @include transition($property: background-image, $function: ease-in-out);
+
+                .mobile & {
+                    transition: none;
+                }
             }
         }
     }
